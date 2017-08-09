@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de-DE">
+<head>
+<title>Community Live - Links</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="styles.css" type="text/css" media="screen" />
+ <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+<div id="page">
+  <div id="cheader">
+     <h1 style ="background-color :Orange; height: 39px;font-size :20px;font-style :italic ;font-family :Comic Sans MS"><marquee> Single to multi cloud computing System</marquee></h1>
+
+    <div id="hm">
+      <ul>
+        <li><a href="Home.aspx">Home</a></li>
+         <li><a href="UploadDownload.aspx" >Uploading</a></li>
+                     <li><a href="UploadDonnoads.aspx" >Downloading</a></li>
+                       <li><a href="Shared.aspx">Share</a></li>
+                       <li><a href="AccessControl.aspx">Access</a></li>
+                         <li><a href="UpdateFile.aspx">Update File</a></li>
+                           <li><a href="DeleteFile.aspx">Delete File</a></li>
+                  <li><a href="Login.aspx">Logout</a></li>
+                   <li><a href="Analysis/AnalysisHome.aspx">Analysis</a></li>
+
+      </ul>
+     
+    </div>
+    
+  </div>
+  <div id="ccontent">
+   <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+  </div>
+</div>
+    </form>
+</body>
+</html>
